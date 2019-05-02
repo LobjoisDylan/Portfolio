@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<title>Portfolio</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			   </button>
+				<a class="navbar-brand" href="#image">Portfolio</a>
+			</div>
+
+			<div class="collapse navbar-collapse nav" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#quisommenous">QUI SUIS-JE </a></li>
+					<li><a href="#nosprojets">MES PROJETS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#image"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="image">
+		<h1 class="animation"></h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+				<img src="pictures/moi.jpg" class="test hidden-sm-down col-xs-12 col-sm-12 col-md-12 col-lg-12" id="quisommenous">
+			</div>
+
+			<div class="border col-sm-2 col-xs-3 col-lg-1">
+				<b><p>Nom: </p></b>
+				<b><p>Prénom: </p></b>
+				<b><p class="age">Age: </p></b>
+				<b><p class="padding">PHP/MySQL</p></b>
+				<b><p class="padding">HTML/CSS</p></b>
+				<b><p class="padding">Javascript/jQuery</p></b>
+				<b><p class="padding">Bootstrap</p></b>
+			</div>
+
+			<div class="border col-sm-2 col-xs-4 col-md-2 col-lg-2">
+				<i><p>Lobjois</p></i>
+				<i><p>Dylan</p></i>
+				<i><p class="age">20</p></i>
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h2 id="nosprojets" class="position_2">Quelques projets au cours de l'années</h2>
+			</div>
+			<div class="col-xs-offset-1 col-xs-5 col-lg-5 col-lg-offset-1">
+				<div class="carrousel">
+					<a href="http://localhost:8090/serveur/Projet_Web_tweet_academie/View/formulaire_connexion.php"><img class="mySlides w3-animate-fading" src="pictures/twitter.png"></a>
+					<a href="http://localhost:8090/serveur/Projet%20Fini/JavaScript_Puissance4/"><img class="mySlides w3-animate-fading" src="pictures/puissance_marron.png"></a>
+					<a href="http://localhost:8090/serveur/Projet%20Fini/HTML_CSS_Maquette_Introduction/"><img class="mySlides w3-animate-fading" src="pictures/maquette.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="contact col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2 col-lg-4 col-lg-offset-3">
+				<a href="https://www.google.fr/maps/place/1+All%C3%A9e+Fran%C3%A7ois+Mansart,+78600+Maisons-Laffitte/@48.9443227,2.1494932,15z/data=!4m5!3m4!1s0x47e6617ead8476f7:0x80c184109e17929b!8m2!3d48.9454934!4d2.154416"><img src="pictures/maps_2.png" class="position_2 img-responsive" id="contact"></a>
+			</div>
+
+			<div class="contact col-lg-5">
+				<h3 class="position_2">POUR ME <span class="rouge">CONTACTER</span></h3>
+				<p class="glyphicon glyphicon-earphone"> 06 20 81 68 61</p><br>
+				<p class="glyphicon glyphicon-envelope"> dylan1.lobjois@epitech.eu</p>
+				<p class=""><b>Linkedin:</b><a href="https://www.linkedin.com/in/dylan-lobjois-b7a25716a"> Voir le profil</a></p>
+				<p class=""><b>Github:</b><a href="https://github.com/LobjoisDylan"> Voir le profil</a></p>
+				<a href="mailto:dylan1.lobjois@epitech.eu" class="position_a">M'envoyer un mail</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="animation.js"></script>
+	<script src="carrousel.js"></script>
+	<script src="defilement.js"></script>
+</body>
+</html>

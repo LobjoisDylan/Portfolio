@@ -1,0 +1,94 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+p {
+	font-size:14px;
+}
+
+#image {
+	background: url('pictures/test2.png') no-repeat;
+	background-size:cover;
+	height:700px;
+	opacity: 0.9;
+}
+
+#image h1 {
+	color: white;
+	font-size:80px;
+	padding-top:300px;
+	text-align:center;
+	color:white;
+}
+
+.border {
+	margin-top:200px;
+	margin-left:40px;
+}
+
+.position {
+	margin-top:20px;
+}
+
+#quisommenous {
+	padding: 40px;
+}
+
+.test {
+	margin-top:80px;
+}
+
+
+.mySlides {
+	width: 200%;
+	border:1px solid grey;
+	border-radius:10px;
+}
+
+.contact {
+	margin-top:30px;
+}
+
+.black {
+	background-color:rgb(53,53,53);
+	height:200px;
+	padding-top:20px;
+}
+
+.white {
+	color:black;
+}
+
+.rouge {
+	color:red;
+}
+
+.position_2 {
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+.position_a {
+	margin-top:5px;
+}
+
+.auto {
+	margin-left:50%;
+}
+
+.bar {
+	padding-bottom: 9px;
+}
+
+.age {
+	margin-bottom: 40px;
+}
+
+.padding {
+padding-bottom:10px;
+}
+
+.progress .progress-bar {
+	background:rgba(43,43,43);
+}
